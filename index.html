@@ -36,6 +36,20 @@
         th {
             background-color: #f2f2f2;
         }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio (divide el alto por el ancho y lo multiplica por 100) */
+            margin-bottom: 20px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -43,7 +57,7 @@
         <h1>Diferencias entre Git Local y Github</h1>
         <h1>by Keiner Bertel Sanjuan</h1>
         <h2>CAMBIO</h2>
-        <h3>camgio 2</h3>
+        <h3>cambio 2</h3>
         <table>
             <tr>
                 <th>Aspecto</th>
@@ -96,6 +110,14 @@
                 <td>Facilita la gestión de ramas y fusiones con herramientas integradas y visuales.</td>
             </tr>
         </table>
+
+        <h1>Video de YouTube GA7-220501096-AA1-EV03 Y GA7-220501096-AA1-EV05</h1>
+        <h1>LINK: https://youtu.be/mEl44aw9uZE</h1>
+        <div class="video-container">
+            <!-- Inserta aquí el enlace del video de YouTube -->
+            <iframe width="560" height="315" src="https://youtu.be/mEl44aw9uZE" frameborder="0" allowfullscreen></iframe>
+            
+        </div>
     </div>
 </body>
 </html>
