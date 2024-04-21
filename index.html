@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferencias entre Git Local y GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <h1>Diferencias entre Git Local y Github</h1>
+        <h1>by Keiner Bertel Sanjuan</h1>
+        <table>
+            <tr>
+                <th>Aspecto</th>
+                <th>Git Local</th>
+                <th>Git Remoto</th>
+            </tr>
+            <tr>
+                <td>Ubicación</td>
+                <td>En tu computadora local.</td>
+                <td>En un servidor remoto (como GitHub).</td>
+            </tr>
+            <tr>
+                <td>Acceso</td>
+                <td>Acceso completo y sin conexión a Internet requerida.</td>
+                <td>Acceso a través de Internet.</td>
+            </tr>
+            <tr>
+                <td>Comandos Iniciales</td>
+                <td>git init: Inicia un nuevo repositorio local.</td>
+                <td>git clone: Clona un repositorio remoto en tu máquina.</td>
+            </tr>
+            <tr>
+                <td>Comandos Básicos</td>
+                <td>git add: Añade cambios al área de preparación (staging).</td>
+                <td>git pull: Obtiene cambios del repositorio remoto y los fusiona con tu repositorio local.</td>
+            </tr>
+            <tr>
+                <td>Comandos de Gestión</td>
+                <td>git commit: Guarda los cambios en tu repositorio local.</td>
+                <td>git push: Envía tus cambios locales al repositorio remoto.</td>
+            </tr>
+            <tr>
+                <td>Historial</td>
+                <td>Puedes ver el historial de cambios en tu máquina.</td>
+                <td>Historial disponible públicamente y accesible desde cualquier lugar con acceso a Internet.</td>
+            </tr>
+            <tr>
+                <td>Colaboración</td>
+                <td>Puedes trabajar en tu código sin conexión y luego compartirlo cuando estés listo.</td>
+                <td>Permite la colaboración en tiempo real entre diferentes personas y equipos.</td>
+            </tr>
+            <tr>
+                <td>Backup</td>
+                <td>Depende de ti realizar copias de seguridad.</td>
+                <td>Generalmente seguro en el servidor remoto, proporcionando una forma de recuperar versiones anteriores.</td>
+            </tr>
+            <tr>
+                <td>Branching y Merging</td>
+                <td>Puedes crear ramas localmente y fusionarlas según sea necesario.</td>
+                <td>Facilita la gestión de ramas y fusiones con herramientas integradas y visuales.</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
